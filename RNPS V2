@@ -1,4 +1,3 @@
-counter = "0"
 guibad = game:GetService("CoreGui"):FindFirstChild("ScreenGui")
  poopoo = game:GetService("Workspace"):FindFirstChild("Sound")
 if poopoo then
