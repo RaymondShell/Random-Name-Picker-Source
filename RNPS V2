@@ -31,9 +31,10 @@ local library = loadstring(game:HttpGet(('https://pastebin.com/raw/npYdYVkB')))(
     		Icon = "rbxassetid://57254792"; -- the image if u want. 
     		Duration = 2
     	})
-    print("https://bit.ly/32neQHM")
-    local random = library:CreateSection("Challenges")
-    random:Button("Run Random Name Generator", function()
+    print("I Have Set Your Clipboard To The Link For The Source Code Just Paste It Into Google")
+    setclipboard("https://bit.ly/32neQHM")
+    local Challenge1 = library:CreateSection("Challenges")
+    Challenge1:Button("Run Random Name Generator", function()
     	game.StarterGui:SetCore("SendNotification", {
     		Title = "Random Name Generator";
     		Text = "Running Random Name Generator";
